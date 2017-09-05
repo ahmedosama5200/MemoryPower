@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navMain"
+        android:icon="@mipmap/ic_explicit_black_24dp"
+        android:title="@string/str_main" />
+
+    <item android:id="@+id/navLearn"
+        android:icon="@mipmap/ic_school_black_24dp"
+        android:title="@string/str_learn" />
+
+    <item android:id="@+id/navReview"
+        android:icon="@mipmap/ic_flash_on_black_24dp"
+        android:title="@string/str_review" />
+
+    <item android:id="@+id/navProgress"
+        android:icon="@mipmap/ic_stars_black_24dp"
+        android:title="@string/str_progress" />
+
+    <item android:id="@+id/navAbout"
+        android:icon="@mipmap/ic_adjust_black_24dp"
+        android:title="@string/str_about" />
+
+    <item android:id="@+id/navExit"
+        android:icon="@mipmap/ic_close_black_24dp"
+        android:title="@string/str_exit" />
+
+</menu>

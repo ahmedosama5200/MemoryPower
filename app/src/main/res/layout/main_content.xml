@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/color_BG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ahmedosama.memorypower.MainActivity">
+
+    <fragment
+        android:id="@+id/frgMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:name="com.ahmedosama.memorypower.MainFragment"
+        android:layout_above="@+id/frgRights"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/frgRights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.ahmedosama.memorypower.RightsFragment"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_rights" />
+
+</RelativeLayout>

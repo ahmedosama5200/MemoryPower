@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color_BG"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_border"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtnWords"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
+                android:text="@string/str_items"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spnCount" />
+
+        </LinearLayout>
+
+        <Button
+            android:text="@string/str_start"
+            style="@style/btn_style"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnStart" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
